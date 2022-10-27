@@ -93,11 +93,10 @@ app.get('/users/:id', async (req, res) => {
 // Export CSV file
 app.get('/export', (req, res) => {
   let a = [];
-  const data = usersData.forEach((user) => {
+  usersData.forEach((user) => {
     for (let i = 0; i < user.readings.length; i++) {
       const book = findBook(booksData, user.readings[i].id);
       a.push({
-        id: user.id,
         userId: user.userId,
         firstName: user.firstName,
         lastName: user.lastName,
@@ -108,7 +107,6 @@ app.get('/export', (req, res) => {
     }
   });
 
-  const jsonData = JSON.stringify(a);
   const ws = fs.createWriteStream('data/export.csv');
   fastcsv
     .write(a, { headers: true })

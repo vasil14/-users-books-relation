@@ -11,8 +11,6 @@ const port = 3000;
 const usersData = JSON.parse(fs.readFileSync('data/users.json'));
 const booksData = JSON.parse(fs.readFileSync('data/books.json'));
 
-// console.log(typeof usersData);
-
 // Users Data
 function getUsers(usersData) {
   const users = usersData.map((user) => {
@@ -94,23 +92,6 @@ app.get('/users/:id', async (req, res) => {
 
 // Export CSV file
 app.get('/export', (req, res) => {
-  // const data = usersData.forEach((user) => {
-  //   const row = user.readings.map((el, i, arr) => {
-  //     const book = findBook(booksData, el.id);
-  //     console.log(el.percentage);
-
-  //     return {
-  //       id: user.id,
-  //       userId: user.userId,
-  //       firstName: user.firstName,
-  //       lastName: user.lastName,
-  //       date: user.date,
-  //       title: book.title,
-  //       pagesRead: book.pages * el.percentage,
-  //     };
-  //   });
-  //   return row;
-  // });
   let a = [];
   const data = usersData.forEach((user) => {
     for (let i = 0; i < user.readings.length; i++) {
@@ -135,8 +116,6 @@ app.get('/export', (req, res) => {
       res.send('File Exported!');
     })
     .pipe(ws);
-
-  // res.send('File is exported!');
 });
 
 // Get all Books

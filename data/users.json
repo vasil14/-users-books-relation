@@ -1,0 +1,64 @@
+[
+  {
+    "id": "1",
+    "userId": "1",
+    "firstName": "Oliver",
+    "lastName": "Jake",
+    "date": "2020-08-07",
+    "readings": [{ "id": "1", "percentage": 0.3 }]
+  },
+  {
+    "id": "2",
+    "userId": "2",
+    "firstName": "Charlie",
+    "lastName": "Kyle",
+    "date": "2020-10-07",
+    "readings": [
+      { "id": "1", "percentage": 0.5 },
+      { "id": "3", "percentage": 0.1 }
+    ]
+  },
+  {
+    "id": "3",
+    "userId": "1",
+    "firstName": "Oliver",
+    "lastName": "Jake",
+    "date": "2020-05-10",
+    "readings": [
+      { "id": "4", "percentage": 0.8 },
+      { "id": "7", "percentage": 0.2 }
+    ]
+  },
+  {
+    "id": "4",
+    "userId": "3",
+    "firstName": "Thomas",
+    "lastName": "Joe",
+    "date": "2021-01-02",
+    "readings": [{ "id": "6", "percentage": 1 }]
+  },
+  {
+    "id": "5",
+    "userId": "4",
+    "firstName": "Emily",
+    "lastName": "Legge",
+    "date": "2022-07-03",
+    "readings": [
+      { "id": "4", "percentage": 0.8 },
+      { "id": "8", "percentage": 0.2 }
+    ]
+  },
+  {
+    "id": "6",
+    "userId": "5",
+    "firstName": "Luke",
+    "lastName": "Ellison",
+    "date": "2022-12-01",
+    "readings": [
+      { "id": "5", "percentage": 0.4 },
+      { "id": "4", "percentage": 0.2 },
+      { "id": "1", "percentage": 1 },
+      { "id": "8", "percentage": 0.7 }
+    ]
+  }
+]

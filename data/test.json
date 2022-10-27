@@ -1,0 +1,110 @@
+[
+  {
+    "id": "1",
+    "userId": "1",
+    "firstName": "Oliver",
+    "lastName": "Jake",
+    "date": "2020-08-07",
+    "title": "Eloquent JavaScript, Third Edition",
+    "pagesRead": 141.6
+  },
+  {
+    "id": "2",
+    "userId": "2",
+    "firstName": "Charlie",
+    "lastName": "Kyle",
+    "date": "2020-10-07",
+    "title": "Eloquent JavaScript, Third Edition",
+    "pagesRead": 236
+  },
+  {
+    "id": "2",
+    "userId": "2",
+    "firstName": "Charlie",
+    "lastName": "Kyle",
+    "date": "2020-10-07",
+    "title": "Understanding ECMAScript 6",
+    "pagesRead": 35.2
+  },
+  {
+    "id": "3",
+    "userId": "1",
+    "firstName": "Oliver",
+    "lastName": "Jake",
+    "date": "2020-05-10",
+    "title": "Speaking JavaScript",
+    "pagesRead": 368
+  },
+  {
+    "id": "3",
+    "userId": "1",
+    "firstName": "Oliver",
+    "lastName": "Jake",
+    "date": "2020-05-10",
+    "title": "Pro Git",
+    "pagesRead": 91.60000000000001
+  },
+  {
+    "id": "4",
+    "userId": "3",
+    "firstName": "Thomas",
+    "lastName": "Joe",
+    "date": "2021-01-02",
+    "title": "You Don't Know JS Yet",
+    "pagesRead": 143
+  },
+  {
+    "id": "5",
+    "userId": "4",
+    "firstName": "Emily",
+    "lastName": "Legge",
+    "date": "2022-07-03",
+    "title": "Speaking JavaScript",
+    "pagesRead": 368
+  },
+  {
+    "id": "5",
+    "userId": "4",
+    "firstName": "Emily",
+    "lastName": "Legge",
+    "date": "2022-07-03",
+    "title": "Rethinking Productivity in Software Engineering",
+    "pagesRead": 62
+  },
+  {
+    "id": "6",
+    "userId": "5",
+    "firstName": "Luke",
+    "lastName": "Ellison",
+    "date": "2022-12-01",
+    "title": "Learning JavaScript Design Patterns",
+    "pagesRead": 101.60000000000001
+  },
+  {
+    "id": "6",
+    "userId": "5",
+    "firstName": "Luke",
+    "lastName": "Ellison",
+    "date": "2022-12-01",
+    "title": "Speaking JavaScript",
+    "pagesRead": 92
+  },
+  {
+    "id": "6",
+    "userId": "5",
+    "firstName": "Luke",
+    "lastName": "Ellison",
+    "date": "2022-12-01",
+    "title": "Eloquent JavaScript, Third Edition",
+    "pagesRead": 472
+  },
+  {
+    "id": "6",
+    "userId": "5",
+    "firstName": "Luke",
+    "lastName": "Ellison",
+    "date": "2022-12-01",
+    "title": "Rethinking Productivity in Software Engineering",
+    "pagesRead": 217
+  }
+]
